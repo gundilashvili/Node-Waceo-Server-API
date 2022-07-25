@@ -1,0 +1,23 @@
+{
+  "name": "waceo_server_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "node --max-old-space-size=8192 server.js",
+    "start": "npm run server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.3.1",
+    "http-proxy-middleware": "^0.21.0",
+    "mongoose": "^5.8.11"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
